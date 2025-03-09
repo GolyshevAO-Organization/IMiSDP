@@ -1,0 +1,13 @@
+language: java
+jdk:
+  - jdk20
+
+script:
+  - mvn clean verify
+
+after_success:
+
+
+branches:
+  only:
+    - main
